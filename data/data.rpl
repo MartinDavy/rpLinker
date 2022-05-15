@@ -1,0 +1,29 @@
+# Nodes
+# name	id	vampire	pc
+Cyril	1	Y	Y
+Éléa	2	Y	Y
+Bérengère	3	Y	Y
+Martin	4	Y	Y
+Linda	5	Y	N
+Inconnu	6	N	N
+Cralliano	7	?	N
+Borgho	8	N	N
+
+# Edges
+#source	arrival	link
+1	2	RELATION : le méchant, le laid et le brutal ; ???
+1	2	BESOIN : pour contrôler ; moi-même
+1	3	RELATION : le Sang ; ???
+1	3	LIEU Un lieu en dehors de la ville ; la cour du Prince d'Epernay
+1	4	RELATION : société ; ???
+1	4	DETTE "Solutions" ; votre troupeau
+2	3	RELATION : politique ; ???
+2	3	BESOIN : pour se sentir ; en sécurité
+2	4	RELATION : la Bête ; ???
+2	4	BESOIN : pour détruire ; les preuves
+2	5	BESOIN pour détruire ; les preuves
+3	4	RELATION : société ; allié politique, ennemis personnels
+3	4	BESOIN pour ressentir ; l'amour
+3	6	BESOIN s'échapper ; d'un lien de sang
+3	7	DETTE "Solutions" ; un livre intitulé "Ancienne magie du sang d'Ur"
+4	8	DETTE mensonges que vous vous êtes racontés : le détective Donatello
